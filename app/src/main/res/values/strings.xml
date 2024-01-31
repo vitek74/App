@@ -1,0 +1,53 @@
+<resources>
+<!-- текст на страницах   -->
+    <string name="app_name">Название вашего приложения</string>
+    <string name="welcome_message">Добро пожаловать!</string>
+    <string name="activity2_text">Это Activity 2</string>
+    <string name="activity3_text">Это Activity 3</string>
+    <string name="activity4_text">(Activity 4) Рецепты по категориям</string>
+    <string name="activity5_text">Это Activity 5</string>
+
+    <!-- текст на кнопках   -->
+
+<!-- activity4.xml (Меню рецептов)  -->
+<!-- activity4_1.xml (Супы)   -->
+    <string name="button_activity2_text">IT (Activity 2)</string>
+    <string name="button_activity3_text">Activity 3</string>
+    <string name="button_activity4_text">Рецепты</string>
+    <string name="button_activity5_text">Activity 5</string>
+    <string name="button_activity4_1_text">Супы</string>
+
+<!-- Текст в activity4_1.xml   -->
+
+    <string name="your_large_text_with_recipe"><![CDATA[
+     <b>Луковый суп</b>
+
+    <b>Ингредиенты:</b>
+    <ul>
+        <li>4 большие желтые луковицы, тонко нарезанные</li>
+        <li>2 зубчика чеснока, измельченных через мясорубку</li>
+        <li>4 чашки куриного или говяжьего бульона</li>
+        <li>2 стакана воды</li>
+        <li>1 столовая ложка несоленого сливочного масла</li>
+        <li>1 столовая ложка оливкового масла</li>
+        <li>Соль и перец по вкусу</li>
+        <li>4-6 ломтиков хрустящего хлеба</li>
+        <li>1 чашка тертого сыра Грюйер</li>
+    </ul>
+
+    <b>Инструкции:</b>
+    <ol>
+        <li>Разогрейте масло в большой кастрюле на среднем огне.</li>
+        <li>Добавьте лук и чеснок, обжаривайте до мягкости и прозрачности, около 10 минут.</li>
+        <li>Добавьте бульон и воду, доведите до кипения, затем уменьшите огонь и дайте почти полчаса кипеть на слабом огне.</li>
+        <li>Посолите и поперчите по вкусу.</li>
+        <li>Выложите суп в глубокие миски, положите ломтики хлеба сверху и посыпьте сыром.</li>
+        <li>Поставьте миски под гриль на пару минут, пока сыр не растает и не приобретет золотистый цвет.</li>
+        <li>Подавайте горячим и наслаждайтесь!</li>
+    </ol>
+]]></string>
+
+
+</resources>
+
+

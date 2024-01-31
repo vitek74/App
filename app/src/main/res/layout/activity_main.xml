@@ -1,0 +1,58 @@
+<!-- res/layout/activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon_1"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message"
+        android:textSize="34sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/welcome_text_color"
+        />
+
+    <Button
+        android:id="@+id/buttonActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcomeTextView"
+        android:layout_marginTop="40dp"
+        android:text="@string/button_activity2_text" />
+
+    <Button
+        android:id="@+id/buttonActivity3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity3_text"
+        android:layout_below="@+id/buttonActivity2"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonActivity4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity4_text"
+        android:layout_below="@+id/buttonActivity3"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonActivity5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity5_text"
+        android:layout_below="@+id/buttonActivity4"
+        android:layout_marginTop="16dp"/>
+
+
+
+</RelativeLayout>

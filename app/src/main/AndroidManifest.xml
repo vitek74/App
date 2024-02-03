@@ -25,6 +25,9 @@
         <activity android:name=".Activity4" />
         <activity android:name=".Activity5" />
         <activity android:name=".Activity4_1" />
+        <activity android:name=".Activity4_2" />
+        <activity android:name=".Activity4_3" />
+        <activity android:name=".Activity4_4" />
     </application>
 
 </manifest>

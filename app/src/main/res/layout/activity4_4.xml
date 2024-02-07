@@ -1,18 +1,82 @@
+<!--Заготовки на зиму-->
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ScrollView
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:src="@drawable/fon4"
+        android:scaleType="centerCrop"/>
+    <!--Лечо activity4_4_1.xml \ Activity4_4_1.java  recipe_strings4_4_1.xml-->
+    <Button
+        android:id="@+id/buttonActivity4_4_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity4_4_1_text"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="38dp" />
 
-        <TextView
-            android:id="@+id/recipeTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/fon4_1"
-            android:padding="16dp"
-            android:text="@string/your_large_text_with_recipe_4"
-            android:textSize="18sp" />
-    </ScrollView>
+    <!--Соусы activity4_4_2.xml \ Activity4_4_2.java  recipe_strings4_4_2.xml-->
+    <Button
+        android:id="@+id/buttonActivity4_4_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity4_4_2_text"
+        android:layout_below="@id/buttonActivity4_4_1"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="38dp" />
+
+    <!--Помидоры activity4_4_3.xml \ Activity4_4_3.java  recipe_strings4_4_3.xml-->
+    <Button
+        android:id="@+id/buttonActivity4_4_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity4_4_3_text"
+        android:layout_below="@id/buttonActivity4_4_2"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="38dp" />
+
+    <!--Огурцы activity4_4_4.xml \ Activity4_4_4.java  recipe_strings4_4_4.xml-->
+    <Button
+        android:id="@+id/buttonActivity4_4_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity4_4_4_text"
+        android:layout_below="@id/buttonActivity4_4_3"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="38dp" />
+
+
+    <!--Овощи activity4_4_5.xml \ Activity4_4_5.java  recipe_strings4_4_5.xml-->
+    <Button
+        android:id="@+id/buttonActivity4_4_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity4_4_5_text"
+        android:layout_below="@id/buttonActivity4_4_4"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="38dp" />
+
+
+    <!--Ассорти activity4_4_5.xml \ Activity4_4_5.java  recipe_strings4_4_5.xml-->
+    <Button
+        android:id="@+id/buttonActivity4_4_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity4_4_6_text"
+        android:layout_below="@id/buttonActivity4_4_5"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="38dp" />
+
+
+
+
 </RelativeLayout>

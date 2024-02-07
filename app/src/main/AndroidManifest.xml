@@ -28,6 +28,19 @@
         <activity android:name=".Activity4_2" />
         <activity android:name=".Activity4_3" />
         <activity android:name=".Activity4_4" />
+        <activity android:name=".Activity4_5" />
+        <activity android:name=".Activity4_4_1" />
+        <activity android:name=".Activity4_4_2" />
+        <activity android:name=".Activity4_4_3" />
+        <activity android:name=".Activity4_4_4" />
+        <activity android:name=".Activity4_4_5" />
+        <activity android:name=".Activity4_4_6" />
+        <activity android:name=".Activity4_2_1" />
+        <activity android:name=".Activity4_2_2" />
+        <activity android:name=".Activity4_3_1" />
+        <activity android:name=".Activity4_3_2" />
+        <activity android:name=".Activity4_5_1" />
+        <activity android:name=".Activity4_5_2" />
     </application>
 
 </manifest>

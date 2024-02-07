@@ -1,11 +1,11 @@
+//Мясо
+
 package com.example.mycontent;
 
 import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.TextView;
-import androidx.core.text.HtmlCompat;
-
-
+import android.widget.Button;
 
 public class Activity4_3 extends AppCompatActivity {
 
@@ -14,13 +14,20 @@ public class Activity4_3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity4_3);
 
-        // Получите текст с HTML-тегами из ресурсов
-        String largeTextWithRecipe = getString(R.string.your_large_text_with_recipe_3);
+        // Переход к Activity4_3_1
+        Button buttonActivity4_3_1 = findViewById(R.id.buttonActivity4_3_1);
+        buttonActivity4_3_1.setOnClickListener(view -> {
+            Intent intent = new Intent(Activity4_3.this, Activity4_3_1.class);
+            startActivity(intent);
+        });
 
-        // Найдите TextView в вашем макете
-        TextView recipeTextView = findViewById(R.id.recipeTextView);
+        // Переход к Activity4_3_2
+        Button buttonActivity4_3_2 = findViewById(R.id.buttonActivity4_3_2);
+        buttonActivity4_3_2.setOnClickListener(view -> {
+            Intent intent = new Intent(Activity4_3.this, Activity4_3_2.class);
+            startActivity(intent);
+        });
 
-        // Установите отформатированный текст в TextView
-        recipeTextView.setText(HtmlCompat.fromHtml(largeTextWithRecipe, HtmlCompat.FROM_HTML_MODE_LEGACY));
+
     }
 }

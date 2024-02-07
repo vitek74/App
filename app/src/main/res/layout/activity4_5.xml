@@ -1,4 +1,4 @@
-<!--Мясо-->
+<!--Копчение-->
 
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -11,26 +11,25 @@
         android:src="@drawable/fon4"
         android:scaleType="centerCrop"/>
 
-    <!--Холодец  activity4_3_1.xml \ Activity4_3_1.java  recipe_strings4_3_1.xml-->
+    <!--Копчение Рыба  activity4_5_1.xml \ Activity4_5_1.java  recipe_strings4_5_1.xml-->
     <Button
-        android:id="@+id/buttonActivity4_3_1"
+        android:id="@+id/buttonActivity4_5_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_activity4_3_1_text"
+        android:text="@string/button_activity4_5_1_text"
         android:layout_marginTop="52dp"
         android:layout_marginEnd="26dp"
         android:layout_marginStart="38dp" />
 
-    <!--Жаркое  activity4_3_2.xml \ Activity4_3_2.java  recipe_strings4_3_2.xml-->
+    <!--Копчение Мясо  activity4_5_2.xml \ Activity4_5_2.java  recipe_strings4_5_2.xml-->
     <Button
-        android:id="@+id/buttonActivity4_3_2"
+        android:id="@+id/buttonActivity4_5_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_activity4_3_2_text"
-        android:layout_below="@id/buttonActivity4_3_1"
+        android:text="@string/button_activity4_5_2_text"
+        android:layout_below="@id/buttonActivity4_5_1"
         android:layout_marginTop="52dp"
         android:layout_marginEnd="26dp"
         android:layout_marginStart="38dp" />
-
 
 </RelativeLayout>

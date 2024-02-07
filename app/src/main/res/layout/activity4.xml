@@ -13,6 +13,7 @@
         android:src="@drawable/fon4"
         android:scaleType="centerCrop"/>
 
+<!-- Соусы   -->
     <Button
         android:id="@+id/buttonActivity4_1"
         android:layout_width="match_parent"
@@ -22,6 +23,8 @@
         android:layout_marginEnd="26dp"
         android:layout_marginStart="38dp" />
 
+
+<!-- Рыба   -->
     <Button
         android:id="@+id/buttonActivity4_2"
         android:layout_width="match_parent"
@@ -48,6 +51,16 @@
         android:layout_height="wrap_content"
         android:text="@string/button_activity4_4_text"
         android:layout_below="@id/buttonActivity4_3"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="38dp" />
+
+    <Button
+        android:id="@+id/buttonActivity4_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity4_5_text"
+        android:layout_below="@id/buttonActivity4_4"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="26dp"
         android:layout_marginStart="38dp" />

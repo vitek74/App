@@ -39,6 +39,13 @@ public class Activity4 extends AppCompatActivity {
             Intent intent = new Intent(Activity4.this, Activity4_4.class);
             startActivity(intent);
         });
+
+        // Переход к Activity4_5
+        Button buttonActivity4_5 = findViewById(R.id.buttonActivity4_5);
+        buttonActivity4_5.setOnClickListener(view -> {
+            Intent intent = new Intent(Activity4.this, Activity4_5.class);
+            startActivity(intent);
+        });
     }
 }
 

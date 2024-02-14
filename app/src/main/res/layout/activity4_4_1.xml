@@ -17,4 +17,15 @@
             android:text="@string/your_large_text_with_recipe_4_4_1"
             android:textSize="18sp" />
     </ScrollView>
+
+    <!-- Кнопка "Домой" -->
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_Home_text"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
 </RelativeLayout>

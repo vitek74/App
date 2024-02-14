@@ -28,10 +28,13 @@
     <string name="button_activity4_4_6_text">Ассорти</string>
     <string name="button_activity4_2_1_text">Сухая засолка</string>
     <string name="button_activity4_2_2_text">Засолка в рассоле</string>
-    <string name="button_activity4_3_1_text">Холодец</string>
+    <string name="button_activity4_3_1_text">Холодец и Жаркое</string>
     <string name="button_activity4_3_2_text">Жаркое</string>
     <string name="button_activity4_5_1_text">Рыба</string>
     <string name="button_activity4_5_2_text">Мясо</string>
+    <string name="button_Home_text">Домой</string>
+    <string name="button_Home1_text">Домой</string>
+
 
 
 
